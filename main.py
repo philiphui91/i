@@ -93,7 +93,7 @@ window_00.title('Pair programming')
 
 centre_window(window_00)
 Label(window_00, text="Self Income").grid(row=0)
-Label(window_00, text="Sponse Income").grid(row=1)
+Label(window_00, text="Spouse Income").grid(row=1)
 
 val_01 = Entry(window_00)
 val_02 = Entry(window_00)
