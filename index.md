@@ -27,7 +27,7 @@ a:hover, a:active {
 <a href="https://github.com/wawa1991/pairprogramming" target="_blank">GitHub - Pair Programming</a>
 <hr>
 
-<p><B>303 Agile Development Project</B></p>
+<p><B>303COM Individual Project</B></p>
 <a href="https://cmsdelivery.com/" target="_blank">Customer Booking Website</a>
 <a href="http://localhost:8000/admin/boxpro/customer/" target="_blank">Management System</a>
 <a href="http://localhost:8080/jasperserver/login.html" target="_blank">Report System</a>
@@ -36,7 +36,7 @@ a:hover, a:active {
 <hr>
 
 
-<p><B>302 Agile Development Project</B></p>
+<p><B>302CEM Agile Development Project</B></p>
 <a href="https://github.com/cu302cemgp3/302CEM" target="_blank">GitHub - Agile Development</a>
 <hr>
     
