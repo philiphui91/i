@@ -22,9 +22,7 @@ a:hover, a:active {
 </style>
 </head>
 <body>
-<p><B>Useful Link</B></p>
 
-<hr/>
 
 <p><B>Cityu Scope</B></p>
 <a href="https://www.cityu.edu.hk/" target="_blank">Cityu Homepage</a>
@@ -54,4 +52,4 @@ a:hover, a:active {
 </body>
 </html>
 
-[back](./)
+[Back](./)
