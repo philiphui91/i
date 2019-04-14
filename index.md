@@ -20,9 +20,6 @@ a:hover, a:active {
 </style>
 </head>
 <body>
-<p><B>Useful Link</B></p>
-
-<hr/>
 
 <p><B>Cityu Scope</B></p>
 <a href="https://www.cityu.edu.hk/" target="_blank">Cityu Homepage</a>
@@ -47,7 +44,6 @@ a:hover, a:active {
 <hr>
 <p><B>Others</B></p>
 <a href="http://ebusiness.schenker.com.hk/SSO/login.html" target="_blank">SSO PROD</a>
-<hr>
 
 </body>
 </html>

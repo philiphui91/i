@@ -1,5 +1,20 @@
-title: Philip's website
-description: Tactile is a theme for GitHub Pages.
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-tactile
+exclude:
+  - node_modules
+  - script
+
+sass:
+  style: :compressed
+
+theme: jekyll-theme-primer
+
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/pages-themes/primer"
+  
+title: Jekyll Theme Primer
+description: Primer is a Jekyll theme for GitHub Pages
