@@ -27,10 +27,15 @@ a:hover, a:active {
 <a href="https://github.com/wawa1991/pairprogramming" target="_blank">GitHub - Pair Programming</a>
 <hr>
 
+<p><B>303 Agile Development Project</B></p>
+<a href="https://cmsdelivery.com/" target="_blank">Customer Booking Website</a>
+<a href="http://localhost:8000/admin/boxpro/customer/" target="_blank">Management System</a>
+<a href="http://localhost:8080/jasperserver/login.html" target="_blank">Report System</a>
+<a href="https://dashboard.stripe.com/test/" target="_blank">Weekly Payment</a>
+
+
 <p><B>302 Agile Development Project</B></p>
 <a href="https://github.com/cu302cemgp3/302CEM" target="_blank">GitHub - Agile Development</a>
-<a href="https://302.winkoxd.com/" target="_blank">302 Organic</a>
-<a href="https://portland-my.sharepoint.com/:x:/g/personal/hwhui8-c_ad_cityu_edu_hk/EXFKFcyGFm1Ms89gjKTg1nIBUc6SOF0DFg-4oc-lk6igwg?e=rNZA9R" target="_blank">Agile Development Plan</a>    
 <hr>
     
 <p><B>206CDE Real Life Project</B></p>
@@ -49,4 +54,4 @@ a:hover, a:active {
 </body>
 </html>
 
-[Link to another version](./another-page.html).
+[Link to another version](./another-page.html)
