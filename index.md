@@ -1,123 +1,55 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+<title>Philip's homepage</title>
+<style>
+body {background-color:white; font-family: Century;}
+p    {color: black;}
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+a:link, a:visited {
+    background-color: powderblue;
+    color: black;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
 }
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+a:hover, a:active {
+    background-color: #2F6FA7;
+}
+</style>
+</head>
+<body>
+<p><B>Useful Link</B></p>
 
-#### Header 4
+<hr/>
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+<p><B>Cityu Scope</B></p>
+<a href="https://www.cityu.edu.hk/" target="_blank">Cityu Homepage</a>
+<a href="https://sites.google.com/view/300add2019itb203" target="_blank">Philip's EPortfolio</a>
+<a href="https://github.com/wawa1991/pairprogramming" target="_blank">GitHub - Pair Programming</a>
+<hr>
 
-##### Header 5
+<p><B>302 Agile Development Project</B></p>
+<a href="https://github.com/cu302cemgp3/302CEM" target="_blank">GitHub - Agile Development</a>
+<a href="https://302.winkoxd.com/" target="_blank">302 Organic</a>
+<a href="https://portland-my.sharepoint.com/:x:/g/personal/hwhui8-c_ad_cityu_edu_hk/EXFKFcyGFm1Ms89gjKTg1nIBUc6SOF0DFg-4oc-lk6igwg?e=rNZA9R" target="_blank">Agile Development Plan</a>    
+<hr>
+    
+<p><B>206CDE Real Life Project</B></p>
+<a href="https://portland-my.sharepoint.com/:f:/g/personal/hwhui8-c_ad_cityu_edu_hk/EoSDAIK92aVJuIiHAcQaZ9kBnEV46UJEFX31MZJRrurZDQ?e=q7szto" target="_blank">OneDrive - 206CDE Real Life Project</a>
+<a href="https://goo.gl/vR2qjr" target="_blank">Tutor Google Drive</a>
+<a href="https://drive.google.com/drive/folders/1fVN5XhPmD7JvsYRG9kzzEJalorQTsvnz" target="_blank">Group Project Document</a>
+<hr>
+    
+<p><B>204KM Operational Research</B></p>
+<a href="http://personal.cityu.edu.hk/~dcccclau/or/" target="_blank">204KM</a>
+<hr>
+<p><B>Others</B></p>
+<a href="http://ebusiness.schenker.com.hk/SSO/login.html" target="_blank">SSO PROD</a>
+<hr>
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+</body>
+</html>
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
