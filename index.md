@@ -1,24 +1,5 @@
 <html>
-<head>
-<title>Philip's homepage</title>
-<style>
-body {background-color:white; font-family: Century;}
-p    {color: black;}
 
-a:link, a:visited {
-    background-color: powderblue;
-    color: black;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: #2F6FA7;
-}
-</style>
-</head>
 <body>
 
 <p><B>Cityu Scope</B></p>
