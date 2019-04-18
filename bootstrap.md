@@ -32,7 +32,7 @@ layout: text
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
     <div class="col-sm-4" ng-app="" >
-      <h3>Input something in the input box:</h3>        
+      <h3>Input text in the input box:</h3>        
 		<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
 		<h2>Hello {{name}}</h2>
     </div>
@@ -43,5 +43,3 @@ layout: text
 </html>
 
 [Back](./)
-
-</div>
