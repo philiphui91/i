@@ -10,6 +10,7 @@ layout: text
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
 
@@ -31,9 +32,9 @@ layout: text
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
     <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <h3>Input something in the input box:</h3>        
+		<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+		<h2>Hello {{name}}</h2>
     </div>
   </div>
 </div>
@@ -42,3 +43,5 @@ layout: text
 </html>
 
 [Back](./)
+
+</div>
