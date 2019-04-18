@@ -31,7 +31,7 @@ layout: text
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-4" ng-app="" >
       <h3>Input something in the input box:</h3>        
 		<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
 		<h2>Hello {{name}}</h2>
