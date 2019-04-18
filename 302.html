@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>302304</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 80%;
+  border-left: none;
+  height: 1000px;
+}
+</style>
+</head>
+<body>
+
+<h2> 302 Agile Development</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'S1')" id="defaultOpen">1. Agile Software Development</button>
+  <button class="tablinks" onclick="openCity(event, 'S2')">2. Manifesto for Agile Development</button>
+  <button class="tablinks" onclick="openCity(event, 'S3')">3. Agile 12 Principles</button>
+  <button class="tablinks" onclick="openCity(event, 'S4')">4. Agile Processes Scrum</button>
+  <button class="tablinks" onclick="openCity(event, 'S5')">5. Behaviour Driven Development (BDD) vs Test Driven Development (TDD)</button>
+  <button class="tablinks" onclick="openCity(event, 'S6')">6. Overview of Version Control System</button>
+</div>
+
+<div id="S1" class="tabcontent">
+  <h3>1. Agile Software Development </h3> <hr>
+	-	SDLC disadvantage <hr>
+	-	Agile advantage <hr>
+ </div>
+ 
+<div id="S2" class="tabcontent"> 
+	<h3>2. Manifesto for Agile Development </h3> <hr> 
+	<b>What is agile? Any methodology that subscribes to the Agile Manifesto </b><hr>
+	-	Individuals and Interactions over processes and tools <hr>
+	-	Working software over comprehensive documentation <hr>
+	-	Customer collaboration over contract negotiation <hr>
+	-	Responding to change over following a plan <hr>
+	<b>XP Programming vs SCRUM </b><hr>
+	i.	Scrum, XP period <hr>
+	ii.	Changes handling between Scrum and XP <hr>
+	iii.	Working Order <hr>
+	iv.	Scrum doesn’t prescribe any engineering practices, XP does <hr> </h4>
+	
+	<b><u> Know the differences between different Agile methodologies such as between Scrum and Extreme Programming </b></u>
+</div>
+
+<div id="S3" class="tabcontent">
+  <h3>3. Agile 12 Principles</h3> <hr>
+	i.	Early and continuous delivery of valuable software <hr>
+	ii.	Welcome changing requirements <hr>
+	iii.	Deliver working software frequently with a preference to the shorter timescale <hr>
+	iv.	Business people and developers must work together daily throughout the project <hr>
+	v.	Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done <hr>
+	vi.	The most efficient and effective method of conveying information to and within a development team is face-to-face conversation <hr>
+	vii.	Working software is the primary measure of progress <hr>
+	viii.	The sponsors, developers, and users should be able to maintain a constant pace indefinitely <hr>
+	ix.	Continuous attention to technical excellence and good design enhances agility <hr>
+	x.	Simplicity – the art of maximizing the amount of work not done – is essential <hr>
+	xi.	The best architectures, requirements, and designs emerge from self-organizing teams <hr>
+	xii.	At regular intervals, the team reflects on how to become more effective, the tunes and adjusts its behaviour accordingly <hr>
+	<b><u>Understand the 12 principles of “agile” so that you can apply some principles to analyse a case and make recommendations</b></u>
+</div>
+
+<div id="S4" class="tabcontent">
+  <h3>4. Agile Processes Scrum</h3>
+	Scrum is an agile, lightweight process for managing and controlling software and product development in rapidly changing environments  <hr>
+	-	Iterative, incremental process  <hr>
+	-	Team-based approach  <hr>
+	-	Developing systems / products with rapidly changing requirements  <hr>
+	-	Controls the chaos of conflicting interest and needs  <hr>
+	-	Improve communication and maximize cooperation  <hr>
+	-	Protecting the team form disruptions and impediments  <hr>
+	-	A way to maximize productivity  <hr>
+	 
+	** Sprint planning meeting – attended by product owner, scrum master and the entire Scrum team // high priority features, User Stories // Select Product Backlog completed within the Sprint  <hr>
+	** Daily Scrum // 15-minute time-boxed event for the Development team // plan for next 24 hours task   <hr>
+	Product Backlog vs Sprint Backlog  <hr>
+	** Product Backlog in Scrum is prioritized features list  <hr>
+	** Sprint Backlog is a list of tasks identified by the Scrum team to be completed within each Scrum sprint  <hr>
+
+	Burn Down Chart: is a graphical representation of work left to do  <hr>
+	** The outstanding work (or backlog) is often on the vertical axis, with time along the horizontal.  <hr>
+
+</div>
+
+<div id="S5" class="tabcontent">
+  <h3>5. Behaviour Driven Development (BDD) vs Test Driven Development (TDD)</h3>
+	What is TDD? What is BDD? <hr>
+	User Stories <hr>
+	-	Enhancing customer value <hr>
+	-	Fosters Collaboration and Improve Understanding <hr>
+	-	Brings User Closer <hr>
+	-	Building Blocks of the Product <hr>
+	-	Boost Transparency <hr>
+	Gherkin Language is a simple language for describing user stories (features) and test scenarios. The Given-When-Then encourages a structured approach to writing feature scenarios that all three parties including product owners, users and tester can understand each other <hr>
+	Given…When...Then...And… <hr>
+	<p> [Balance] [Withdrawal Amount] [Cash Dispensed]  </p> <hr>
+	100/50/50 <hr>
+	50/100/0 <hr>
+	<b><u>Be able to list the contributions of user stories to Agile development </u></b> <hr>
+	<b><u>Be able to explain Gherkin language and give examples </u></b> <hr>
+
+</div>  
+
+<div id="S6" class="tabcontent">
+  <h3>6. Overview of Version Control System</h3>
+	Centralized Version Control System <hr>
+	Advantages <hr>
+	-	Everyone knows to a certain degree what everyone else on the project is doing <hr>
+	-	Administrators have fine-grained control over who can do what, and it’s far easier to administer a CVCS than it is to deal with local databases on every client <hr>
+	Disadvantages <hr>
+	-	Single point of failure (If the hard disk the central database is on becomes corrupted, and proper backups haven’t kept, there is a risk of losing everything.) <hr>
+
+	Distributed Version Control System <hr>
+
+	<b><u>Be able to explain LCVS, DCVS, CCVS and know the differences between them and be able to illustrate the concepts with diagram. </b></u><hr>
+	<b><u>Know the differences between SCRUM and Extreme Programming </b></u><hr>
+
+</div>
+  
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
