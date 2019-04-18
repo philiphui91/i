@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>304</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 80%;
+  border-left: none;
+  height: 1000px;
+}
+</style>
+</head>
+<body>
+
+<h2> 302 Agile Development</h2>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'S1')" id="defaultOpen">Lab 1</button>
+  <button class="tablinks" onclick="openCity(event, 'S2')">Lab 2</button>
+  <button class="tablinks" onclick="openCity(event, 'S3')">Lab 3</button>
+  <button class="tablinks" onclick="openCity(event, 'S4')">Lab 4</button>
+  <button class="tablinks" onclick="openCity(event, 'S5')">Lab 5</button>
+  <button class="tablinks" onclick="openCity(event, 'S6')">Lab 6</button>
+  <button class="tablinks" onclick="openCity(event, 'S7')">Lab 7</button>
+  <button class="tablinks" onclick="openCity(event, 'S8')">Lab 8</button>
+  <button class="tablinks" onclick="openCity(event, 'S9')">Lab 9</button>
+  <button class="tablinks" onclick="openCity(event, 'S10')">Lab 10</button>
+</div>
+
+<div id="S1" class="tabcontent">
+  <h3>Lab 1</h3> <hr>
+	<b>Q1. What’s e-commerce? </b><hr>
+	
+	E-commerce, in the popular sense, can be defined as: <u>the use of the Internet 
+	and the Web to conduct business transactions. </u><hr>
+
+	A more technical definition would be: e-commerce involves <b><u>digitally enabled commercial transactions between and among organizations and individuals </b></u><hr>
+	
+	<b>How does e-commerce differ from e-business?</b><hr>
+	E-commerce differs from e-business in that <u>no commercial transaction, 
+	an exchange of value across organizational or individual boundaries; 
+	takes place in e-business. </u><hr>
+
+	E-business is the digital <b><u>enablement of transactions and processes within </b>a firm and therefore does not include any exchange in value. </u> <hr>
+
+	<b>Where does it intersect with e-business?</b> <hr>
+	E-commerce and e-business intersect at the business firm boundary at the point where internal business systems link up with suppliers. For instance, e-business turns into e-commerce when an exchange of value occurs across firm boundaries.<hr>
+
+	
+ </div>
+ 
+<div id="S2" class="tabcontent"> 
+	<h3>Lab 2</h3> <hr> 
+	
+</div>
+
+<div id="S3" class="tabcontent">
+  <h3>Lab 3</h3> <hr>
+	
+</div>
+
+<div id="S4" class="tabcontent">
+  <h3>Lab 4</h3>
+
+</div>
+
+<div id="S5" class="tabcontent">
+  <h3>Lab 5</h3>
+
+</div>  
+
+<div id="S6" class="tabcontent">
+  <h3>Lab 6</h3>
+
+</div>
+
+
+<div id="S7" class="tabcontent">
+  <h3>Lab 7</h3>
+
+</div>
+
+
+<div id="S8" class="tabcontent">
+  <h3>Lab 8</h3>
+
+</div>
+
+
+<div id="S9" class="tabcontent">
+  <h3>Lab 9</h3>
+
+</div>
+
+
+<div id="S10" class="tabcontent">
+  <h3>Lab 10</h3>
+
+</div>
+  
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
