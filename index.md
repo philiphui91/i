@@ -29,8 +29,8 @@ a:hover, a:active {
 
 <p><B>303COM Individual Project</B></p>
 <a href="https://cmsdelivery.com/" target="_blank">Customer Booking Website</a>
-<a href="http://boxpro:8000/admin/boxpro/customer/" target="_blank">Management System</a>
-<a href="http://boxpro:8080/jasperserver/login.html" target="_blank">Report System</a>
+<a href="http://boxpro.com:8000/admin/boxpro/customer/" target="_blank">Management System</a>
+<a href="http://boxpro.com:8080/jasperserver/login.html" target="_blank">Report System</a>
 <a href="https://dashboard.stripe.com/test/" target="_blank">Weekly Payment</a>
 <a href="./workflow.html" target="_self">Workflow</a>
 <a href="https://photos.app.goo.gl/2px3poT2fGXktky16" target="_self">Gallery</a>
