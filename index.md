@@ -22,7 +22,8 @@ a:hover, a:active {
 
 <p><B>Fitness</B></p>
 <a href="http://58.153.81.68:8000/swingtime/admin/phy/diet/" target="_self">Diet</a>
-<h4> username: admin </br> password: 12345 </h4>
+<h4> username: admin
+ password: 12345 </h4>
 <hr>
 
 <p><B>Cityu</B></p>
