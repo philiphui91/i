@@ -37,5 +37,3 @@ username: admin, password: 12345
 
 </body>
 </html>
-
-[Link to another version](./another-page.html)
