@@ -22,10 +22,10 @@ a:hover, a:active {
 
 <p><B>Fitness</B></p>
 <a href="http://58.153.81.68:8000/swingtime/admin/phy/diet/" target="_self">Diet</a>
-username: admin, password: 12345
+username: admin </br> password: 12345
 
 <p><B>Cityu</B></p>
-<a href="./cityu.md" target="_self">Cityu</a>
+<a href="./cityu.html" target="_self">Cityu</a>
 <hr>
 
 
