@@ -52,6 +52,7 @@ a:hover, a:active {
 <hr>
 <p><B>Others</B></p>
 <a href="http://ebusiness.schenker.com.hk/SSO/login.html" target="_blank">SSO PROD</a>
+<a href="./react.html" target="_self">React</a>
 <a href="./bootstrap.html" target="_self">Bootstrap</a>
 <hr>
 
