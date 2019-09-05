@@ -56,13 +56,13 @@
 
 <h2>Useful Path</h2>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'S1')" id="defaultOpen">JCS Scheduler</button>
-  <button class="tablinks" onclick="openCity(event, 'S2')">Important IP</button>
-  <button class="tablinks" onclick="openCity(event, 'S3')">JCS UAT DB</button>
-  <button class="tablinks" onclick="openCity(event, 'S4')">Servers</button>
-  <button class="tablinks" onclick="openCity(event, 'S5')">ADP & Email</button>
-  <button class="tablinks" onclick="openCity(event, 'S6')">Password</button>
-	<button class="tablinks" onclick="openCity(event, 'S7')">Others</button>
+  <button class="tablinks" onclick="openItem(event, 'S1')" id="defaultOpen">JCS Scheduler</button>
+  <button class="tablinks" onclick="openItem(event, 'S2')">Important IP</button>
+  <button class="tablinks" onclick="openItem(event, 'S3')">JCS UAT DB</button>
+  <button class="tablinks" onclick="openItem(event, 'S4')">Servers</button>
+  <button class="tablinks" onclick="openItem(event, 'S5')">ADP & Email</button>
+  <button class="tablinks" onclick="openItem(event, 'S6')">Password</button>
+  <button class="tablinks" onclick="openItem(event, 'S7')">Others</button>
 </div>
 
 <div id="S1" class="tabcontent">
@@ -332,7 +332,7 @@ MMCS password
   Madam Lo  x5358
 </div>
  	<script>
-	function openCity(evt, cityName) {
+	function openItem(evt, itemName) {
 	  var i, tabcontent, tablinks;
 	  tabcontent = document.getElementsByClassName("tabcontent");
 	  for (i = 0; i < tabcontent.length; i++) {
@@ -342,7 +342,7 @@ MMCS password
 	  for (i = 0; i < tablinks.length; i++) {
 	    tablinks[i].className = tablinks[i].className.replace(" active", "");
 	  }
-	  document.getElementById(cityName).style.display = "block";
+	  document.getElementById(itemName).style.display = "block";
 	  evt.currentTarget.className += " active";
 	}
 	// Get the element with id="defaultOpen" and click on it
