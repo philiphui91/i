@@ -1,0 +1,255 @@
+== JCS Scheduler ==
+https://10.11.3.236/jcs2-ws/#p_fn1
+https://jcs.csd.hksarg/jcs2-web/batchtest.zhtml
+
+MMCS scheduler
+https://10.11.3.75/mmcs2-ws/#p_fn2
+
+== Important IP ==
+Latest Source Code (MMCS)
+10.11.5.43
+
+Ian's original machine:
+10.11.11.123
+
+Sum Sing Machine:
+10.11.11.77
+
+SVN Server  (For MMCS)   Also mySQL for book sorting
+10.11.11.75
+
+==    ==
+JCS UAT DB
+10.11.3.235			JCS Server (UAT)		administrator/P@ssw0rd   (56% RAM)
+					10.11.3.235:1521:UATJCS2
+					User: jcs2uat
+					Password: HPjcs2pwd
+
+10.11.3.236			JCS Prod Server (App JBOSS)		
+10.11.3.237         JCS Prod (DB)              usr:production   /  pwd:HPjcs2pwd
+						 10.11.3.237:1521:JCS2	usr:prdreadonly  /  pwd:JCS2ReadOnly
+10.11.3.239		TAPE Backup Server (Backup Exec)	
+
+10.11.11.150	Mantis Log Workstation	
+10.11.11.76		VisualSVN Server	
+10.11.11.74		Development Workstation			  usr:user / pwd:<blank>
+
+10.11.3.238		JCS Standby Server (Inactive DR)		administrator/HPjcs2pwd
+
+== Servers ==
+
+
+----------------------------------------------
+
+10.11.11.156:8443/svn/bsts-client        SVN (book sorting Bsts client)
+{	URL: https://10.11.11.156:8443/svn/bsts-client/trunk/BookSorting_Wide
+}
+10.11.3.80   (Book Sorting Possible Production) (Ping OK / Remote Desktop=Failed) ????? BSTS Client Test??  Cannot connect... MySQL Server is closed?
+10.11.11.75  (Book Sorting Possible a Workstation) (Ping OK) ????? BSTS Client Test??  Cannot connect... MySQL Server is closed?
+-----------------------------------------
+10.11.3.239  Tape Drive Backup Server
+-----------------------------------------
+
+10.11.231.100  MMCS prod (Tomcat-eOrder)
+10.11.3.75   MMCS prod (Tomcat-MMCS)
+10.11.3.76   MMCS prod (JBOSS / EJB / Report / SentEmailOut)
+10.11.3.77   MMCS prod (Prod DB)  user:production   SID:MMCS2  pwd:HPmmcs2   <----- new
+															
+
+
+10.11.5.41   MMCS UAT (mmcs-Tomcat)												(41% RAM)
+10.11.5.42   MMCS UAT (JBOSS / EJB / Report / SentEmailOut)									(16% RAM)
+10.11.5.40   MMCS UAT (mmcs-eOrder)												(10% RAM)
+10.11.5.46   MMCS (UAT DB)     user:production   pwd:HPmmcs2PWD  SID:MMCS2UAT port:1521  (63% RAM)
+			 MMCS (UAT DB)     user:production   pwd:HPmmcs2     SID:MMCS2DEV port:1522  (63% RAM)
+
+10.11.5.43   MMCS  Development Machine
+------------------------------------------------------
+
+10.11.11.77  (Sun Sing's Machine)
+==ADP===
+==ADP==
+my.ADP.com
+https://myadp.adponehr.com
+
+User ID: Ian.Wu@ust-global.com
+Password: L01Ellxmqj <-xxxxx
+		  CVg#PU03!EK <--xxxxx
+		  <drink MKII with 1st capital>
+
+
+==email===
+https://outlook.office.com/owa/?realm=ust-global.com&path=/mail/inbox
+XXX not work --> http://cloudmail.ust-global.com/owa
+
+	user: Ian.Wu@ust-global.com
+	pwd: <yahoo mail front part>
+
+	user: USTR\100987
+	pwd: apple$1234
+	
+https://resetpassword.ust-global.com/default.aspx
+https://idp.ust-global.com/adfs/portal/updatepassword?username=Ian.Wu%40ust-global.com&status=2
+
+
+
+=== More Password====
+Book Sorting Client
+{	login: admin
+	password:Wallace
+}
+
+Book Sorting DB (SumSing Machine)
+{	login:root
+	pwd:HPmmcs2
+}
+
+JCS Prod Web
+{	jcs
+	jcs2jcs2
+}
+
+JCS UAT  Web
+{	????
+	???
+}
+
+MMCS prod  Web   (via CSD Portal link)
+{	HP1
+	Summer%567
+	Wallace <---xxxx
+	
+	
+	-- for book sorting export zip--
+	user: bsts_test
+	pwd: Summer$456
+	pwd: Wallace	<--- xxxxx
+}
+
+MMCS DEV  Web
+{	HP1
+
+	Summer%901	
+	xxx Summer%890
+	
+
+}
+
+MMCS UAT  Web  
+{	HP1
+	Summer%012
+	Summer%567  <---xxxx
+	Summer%890  <---xxxx
+	March03# <---xxxx
+	
+	BSTS_TEST
+	Summer$456
+}
+
+
+E-Ordering Prod Web   (via CSD Portal link)
+{	rebecca.yue@ust-global.com
+	Summer$456
+	Autumn%567  <---xxx
+}
+
+
+==Scan Doc for Useful Business Logic ==
+[ ] Z:c\00 - UST-GLOBAL (CSD only)\0 - Plan   //**  UST-Global need to deliver doc to CSD
+[x] Z:\00 - UST-GLOBAL (CSD only)\1 - System Performance Monthly Reports\   //*** unrelated
+[]  Z:\00 - UST-GLOBAL (CSD only)\2 - Change Request Log\    //**** unrelated
+[x] Z:\00 - UST-GLOBAL (CSD only)\3 - Documentation\JCS\Part II. Application - Module\****   //  Not too useful, only screen cap , Field name,length,mandatory....
+[]  Z:\00 - UST-GLOBAL (CSD only)\Security Patch    //***  empty folder
+
+
+== Mantis Bug Tracker == 
+	Z:\01 Workarea\0 - HANDOVER\04.ChangeRequest\JCS
+	http://10.11.11.150/mantisbt/summary_page.php
+
+login:admin
+password: HPjcs2pwd
+
+==workspace==
+C:\JCS2
+C:\Workspace_MMCS_Prod
+
+== Batch Job Listt==
+Z:\01 Workarea\0 - HANDOVER\06.BatchList\jcs.xlsx
+
+
+== useful ==
+Z:\01 Workarea\0 - HANDOVER\99 - Others
+Z:\01 Workarea\0 - HANDOVER\999 - HOW-TO
+
+==datapatch==
+Z:\01 Workarea\2 - CR LIST\001 - DXC DataPatch
+
+User Name Account Password
+Z:\01 Workarea\0 - HANDOVER\09.UserAccountAndPassword
+
+
+
+AUPM  Application User Program Manual
+Z:\01 Workarea\0 - HANDOVER\01.Documentation\JCS\4.0 User Training and System Rollout\T355 - Application User Manual
+
+==Charles handover doc==
+Z:\00 - UST-GLOBAL (CSD only)\3 - Documentation\Handover
+
+==UAT SITE==
+(JCS)
+http://10.11.3.235/jcs2-web/main.zhtml
+jcs
+a1234567
+
+(E-Ordering PROD) 
+https://10.11.231.100/eordering/login.zhtml
+https://10.11.231.100/eordering/login.zhtml?mode=bstsLogin
+	u: bsts@lcsd.gov.hk
+	p: Cp1234567#
+	   
+	   
+(E-Ordering UAT) 
+https://10.11.5.40/eordering
+	rebecca.yue@ust-global.com
+	Autumn%567
+	<--(UAT)
+
+	u: bsts@lcsd.gov.hk
+	p: Summer$567
+	   Summer$456
+(MMCS UAT)
+https://10.11.5.41/mmcs2/
+HP1
+March03#
+
+== Issue Log ==
+Z:\01 Workarea\2 - CR LIST
+
+
+=== Secret Special Drive ==
+http:\\10.11.11.4
+admin
+?????
+
+-----Contact ------
+Fok Sir (Book Sorting),  Park Shar Wan  Tel: 2899 1413
+Hui Sir (Book Sorting),  Shek Pak      Tel: 2980 6342
+Tsang Sir (MMCS), Hey Ling Tsou / Island Tel:2986 6103    TSANG_CK_03
+2980 6342
+
+GFMIS Help Desk  (ID=CSAO2012)  tel: 8107 0018   email:gfmis.helpdesk@pccw.com
+case: INC000000761679
+
+====Encrypt Password====
+MMCS password
+
+  8c5ce1acd2ef577a353c8bf5cac8dfaa = Summer%012
+  
+  a5a361879a7c114f891f728dded7d7fd  = a1234567
+  9a2615daedbe6387f8278257247658a7 = Summer%567
+  xxxxxxxxxxxxxxxx
+  c072dd20bdcfad5cebff64456d07ed20 <--   Summer$456  (eorder prod password)
+  
+  
+  Ho Sir    SPP bookSort 2980 6341
+  Madam Lo  x5358
