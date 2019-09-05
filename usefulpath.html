@@ -60,8 +60,9 @@
   <button class="tablinks" onclick="openCity(event, 'S2')">Important IP</button>
   <button class="tablinks" onclick="openCity(event, 'S3')">JCS UAT DB</button>
   <button class="tablinks" onclick="openCity(event, 'S4')">Servers</button>
-  <button class="tablinks" onclick="openCity(event, 'S5')">ADP</button>
-  <button class="tablinks" onclick="openCity(event, 'S6')">email</button>
+  <button class="tablinks" onclick="openCity(event, 'S5')">ADP & Email</button>
+  <button class="tablinks" onclick="openCity(event, 'S6')">Password</button>
+	<button class="tablinks" onclick="openCity(event, 'S7')">Others</button>
 </div>
 
 <div id="S1" class="tabcontent">
@@ -152,8 +153,8 @@
 	Password: L01Ellxmqj <-xxxxx
 			  CVg#PU03!EK <--xxxxx
 			  <drink MKII with 1st capital>
-
-
+<div>
+<div id="S6" class="tabcontent">
 	==email===
 	https://outlook.office.com/owa/?realm=ust-global.com&path=/mail/inbox
 	XXX not work --> http://cloudmail.ust-global.com/owa
@@ -168,7 +169,7 @@
 	https://idp.ust-global.com/adfs/portal/updatepassword?username=Ian.Wu%40ust-global.com&status=2
 </div>
 
-
+<div id="S7" class="tabcontent">
 === More Password====
 Book Sorting Client
 {	login: admin
@@ -329,6 +330,23 @@ MMCS password
   
   Ho Sir    SPP bookSort 2980 6341
   Madam Lo  x5358
-  
- </body>
+</div>
+ 	<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+	</body>
 </html>
