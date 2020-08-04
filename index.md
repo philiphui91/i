@@ -30,6 +30,9 @@ a:hover, a:active {
 <a href="./cityu.html" target="_self">Cityu</a>
 <hr>
 
+<p><B>UST Global</B></p>
+<a href="http://cloudmail.ust-global.com/owa" target="_self">Email</a>
+<hr>
 
 <p><B>Others</B></p>
 <a href="http://ebusiness.schenker.com.hk/SSO/login.html" target="_blank">SSO PROD</a>
