@@ -20,10 +20,12 @@ a:hover, a:active {
 </head>
 <body>
 
-<p><B>Fitness</B></p>
+<p><B>Personal / Fitness</B></p>
 <a href="http://58.153.81.68:8000/swingtime/admin/phy/diet/" target="_self">Diet</a>
 <h4> username: admin
  password: 12345 </h4>
+ <a href="https://docs.google.com/spreadsheets/d/19hTrbYZszH9JBC6ydpGYB2gVHoFHZIe-Ie7Bep9A2XA/edit?usp=sharing" target="_self">Liability</a>
+ <a href="https://docs.google.com/spreadsheets/d/1hN2ix7acETme13R0nMtihGe-r1r0NEQP2m_7F-a4WIM/edit?usp=sharing" target="_self">Revenue & Expenditure</a>
 <hr>
 
 <p><B>Cityu</B></p>
